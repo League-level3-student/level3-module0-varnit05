@@ -16,7 +16,7 @@ public class _02_FindTheHiddenButton implements ActionListener{
 	JPanel panel;
 	
 	//1. create an array of JButtons. Don't initialize it yet.
-	
+	JButton [] jbut = new JButton[];
 	//2 create an integer variable called hiddenButton
 	
 	public static void main(String[] args) {
@@ -42,9 +42,10 @@ public class _02_FindTheHiddenButton implements ActionListener{
 		//10. call setExtendedState(JFrame.MAXIMIZED_BOTH) on your JFrame object.
 		
 		//11. set the JFrame to visible.
+	
 		
 		//12. Give the user the instructions for the game.
-		
+		JOptionPane.showInputDialog(null,"");
 		//13. initialize the hiddenButton variable to a random number less than the int created in step 3
 		
 		//14. Set the text of the JButton located at hiddenButton to read "ME"
