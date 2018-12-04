@@ -1,7 +1,7 @@
 /* Copy the code into a new Processing sketch and complete then steps. */
 
 //1. create an array of ints. don't initialize it yet.
-
+		String [] names
 
 void setup() {
   //2. set the size of your window
@@ -25,6 +25,7 @@ void draw() {
 
 
   //7. set the color for your graph
+
 
 
   //8. draw a rectangle for each int in your array.
